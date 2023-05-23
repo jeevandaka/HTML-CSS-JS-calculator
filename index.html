@@ -4,9 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <div class="container">
+        <div class="calculator">
+
+            <!--container for input and output-->
+            <div class="result">
+                <input type="text" readonly id="calculater_result" placeholder="0.0">
+            </div>
+
+            <!-- container for all input buttons -->
+            <div class="buttons">
+                <div id="c" onclick="calculater_result.value = ''">C</div> <!-- all clear button-->
+                <div id="del" onclick="calculater_result.value=calculater_result.value.substring(0,calculater_result.value.length - 1)">
+                    <i class="fa-solid fa-delete-left"></i>
+                </div> <!-- clear button -->
+            
+                <div id="pers" onclick="calculater_result.value += '%'">%</div>
+                <div id="div" onclick="calculater_result.value += '&#247;'">&#247;</div>
+
+                <div onclick="calculater_result.value += '7'">7</div>
+                <div onclick="calculater_result.value += '8'">8</div>
+                <div onclick="calculater_result.value += '9'">9</div>
+
+                <div id="div" onclick="calculater_result.value += '&#215;'">&#215;</div>
+
+                <div onclick="calculater_result.value += '4'">4</div>
+                <div onclick="calculater_result.value += '5'">5</div>
+                <div onclick="calculater_result.value += '6'">6</div>
+
+                <div id="div" onclick="calculater_result.value += '-'">-</div>
+
+                <div onclick="calculater_result.value += '1'">1</div>
+                <div onclick="calculater_result.value += '2'">2</div>
+                <div onclick="calculater_result.value += '3'">3</div>
+
+                <div id="div" onclick="calculater_result.value += '+'">+</div>
+                <div id="zero" onclick="calculater_result.value += '0'">0</div>
+                <div id="dot" onclick="calculater_result.value += '.'">.</div>
+                <div id="eql" onclick="calculate()">=</div>
+
+            </div>
+            
+        </div>
+    </div>
 </body>
 </html>
