@@ -47,10 +47,20 @@
                 <div id="zero" onclick="calculater_result.value += '0'">0</div>
                 <div id="dot" onclick="calculater_result.value += '.'">.</div>
                 <div id="eql" onclick="calculate()">=</div>
-
             </div>
-            
         </div>
     </div>
+
+    <script>
+        function calculate(){
+            var replaced = calculater_result.value;
+            if(calculater_result.value.includes('÷') || calculater_result.value.includes('×')){
+                replaced = calculater_result.value.replaceAll('×','*').replaceAll('÷','/');
+                calculater_result.value = eval(replaced);
+            }
+            calculater_result.value = eval(replaced);
+        }
+    </script>
+
 </body>
 </html>
