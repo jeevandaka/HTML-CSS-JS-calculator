@@ -1,10 +1,10 @@
 Calculator website made with HTML,CSS and JS.
 
-![Screenshot_calcu](https://github.com/jeevandaka/HTML-CSS-JS-calculator/assets/106466451/4902881b-d8c5-4c47-b3c1-f4167c39bc7b)
+![Screenshot_calcu_1](https://github.com/jeevandaka/HTML-CSS-JS-calculator/assets/106466451/765ec567-e85d-46e8-a6a3-4a404f4f9d99)
 
 Dark mode:
 
-![Screenshot_calcu_dark](https://github.com/jeevandaka/HTML-CSS-JS-calculator/assets/106466451/8db1ad33-3e7e-4e29-8ff5-12235860202a)
+![Screenshot_calcu_dark_1](https://github.com/jeevandaka/HTML-CSS-JS-calculator/assets/106466451/ec4a464d-0242-4dfc-98d8-cee8758b7e38)
 
 # Project Title
 
