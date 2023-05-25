@@ -26,6 +26,8 @@ The project mainly aimed to put into practice knowledge of HTML, CSS and JavaScr
 1. HTML
 2. CSS
 3. JavaScript
+4. Chrome Browser
+5. VS Code
 ## How to Use the Project
 
 Run on your machine:
@@ -33,3 +35,5 @@ Run on your machine:
 clone Project
 
 https://github.com/jeevandaka/HTML-CSS-JS-calculator.git
+## Comments
+The Calculator can be reused in any Front-end Project.
